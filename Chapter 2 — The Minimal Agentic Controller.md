@@ -401,11 +401,11 @@ The policy is the mechanism that maps what the agent knows and wants into what i
 
 A useful general form is:
 
-$$
+
 (m_{t+1},a_t)
 =
 \pi(o_t,m_t,r_t)
-$$
+
 
 This looks intimidating if encountered cold, but its meaning is straightforward.
 
@@ -442,9 +442,7 @@ An **action** is what the agent selects.
 
 We write it as:
 
-$$
 a_t
-$$
 
 Examples:
 
@@ -554,17 +552,13 @@ stack = [Explore, AvoidObstacle]
 
 The plant state also changes.
 
-$$
 x_t \rightarrow x_{t+1}
-$$
 
 We can represent this more explicitly as:
 
-$$
 x_{t+1}
 =
 F(x_t,a_t,d_t)
-$$
 
 where:
 
