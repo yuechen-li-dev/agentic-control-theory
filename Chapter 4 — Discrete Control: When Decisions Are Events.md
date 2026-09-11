@@ -1196,11 +1196,7 @@ then changing behavior is not worthwhile.
 One can model this as:
 
 $$
-U_{\text{effective}}
-=
-U_{\text{candidate}}
--
-C_{\text{transition}}
+U_{\text{effective}}=U_{\text{candidate}}-C_{\text{transition}}
 $$
 
 This is another way of introducing resistance to unnecessary mode changes.
